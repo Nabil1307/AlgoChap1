@@ -1,0 +1,26 @@
+ALGORITHM NbrCarac_Phrase
+VAR
+    Sentence,Words,NbrVoyelle, SumSentence , SumWords , SumNbrVoyelle : INTEGER :=0;
+    C : STRING    
+    Voyelles= [a, e, i, o, u, y, A, E, I, O, U, Y]
+    
+BEGIN
+   DO  
+    IF (C <> ' ') THEN
+        Sentence++
+      ELSE
+        Sentence++
+        Words++
+    END_IF 
+    IF (C = TAB [Voyelles]) THEN
+        NbrVoyelle++
+    END_IF   
+    IF ('C' ='.')
+       Sentence++
+    END_IF   
+       
+   WHILE (C <> '.' )
+   SumSentence(sentence)
+   SumWords(words)
+   SumNbrVoyelle(NbrVoyelle)
+END
